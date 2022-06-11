@@ -152,11 +152,10 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="thumbnail">
                                     <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
+                                        <img src="assets/demo/06.jpg" alt="">
                                         <div class="caption-overflow">
                                             <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
+                                                <a href="assets/demo/06.jpg" data-popup="lightbox" rel="gallery"
                                                     class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
                                                         class="icon-plus3"></i></a>
                                                 <a href="#"
@@ -171,11 +170,10 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="thumbnail">
                                     <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
+                                        <img src="assets/demo/08.jpg" alt="">
                                         <div class="caption-overflow">
                                             <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
+                                                <a href="assets/demo/08.jpg" data-popup="lightbox" rel="gallery"
                                                     class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
                                                         class="icon-plus3"></i></a>
                                                 <a href="#"
@@ -190,11 +188,10 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="thumbnail">
                                     <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
+                                        <img src="assets/demo/09.jpg" alt="">
                                         <div class="caption-overflow">
                                             <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
+                                                <a href="assets/demo/09.jpg" data-popup="lightbox" rel="gallery"
                                                     class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
                                                         class="icon-plus3"></i></a>
                                                 <a href="#"
@@ -209,11 +206,10 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="thumbnail">
                                     <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
+                                        <img src="assets/demo/10.jpg" alt="">
                                         <div class="caption-overflow">
                                             <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
+                                                <a href="assets/demo/10.jpg" data-popup="lightbox" rel="gallery"
                                                     class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
                                                         class="icon-plus3"></i></a>
                                                 <a href="#"
@@ -225,287 +221,28 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="thumbnail">
-                                    <div class="thumb">
-                                        <img src="assets/images/placeholder.jpg" alt="">
-                                        <div class="caption-overflow">
-                                            <span>
-                                                <a href="assets/images/placeholder.jpg" data-popup="lightbox"
-                                                    rel="gallery"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
-                                                        class="icon-plus3"></i></a>
-                                                <a href="#"
-                                                    class="btn border-white text-white btn-flat btn-icon btn-rounded ml-5"><i
-                                                        class="icon-link2"></i></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!-- /image grid -->>
-
                     </div>
+                    <!-- /main charts -->
+
+
+
+
+
+                    <!-- Footer -->
+                    <div class="footer text-muted">
+                        &copy; 2022. <a href="#">Dhanvi</a> by <a href="http://developerrony.com" target="_blank">MH
+                            RONY</a>
+                    </div>
+                    <!-- /footer -->
+
                 </div>
-                <!-- /main charts -->
-
-
-
-
-
-                <!-- Footer -->
-                <div class="footer text-muted">
-                    &copy; 2022. <a href="#">Dhanvi</a> by <a href="http://developerrony.com" target="_blank">MH
-                        RONY</a>
-                </div>
-                <!-- /footer -->
+                <!-- /content area -->
 
             </div>
-            <!-- /content area -->
+            <!-- /main content -->
 
         </div>
-        <!-- /main content -->
-
-    </div>
-    <!-- /page content -->
+        <!-- /page content -->
 
     </div>
     <!-- /page container -->
