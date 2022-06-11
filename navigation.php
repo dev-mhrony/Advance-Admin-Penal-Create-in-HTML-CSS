@@ -49,7 +49,7 @@
             <li class="navigation-header"><span>Footer Section</span> <i class="icon-menu" title="Main pages"></i>
             </li>
 
-            <li><a href="index.html"><i class="icon-man-woman"></i>
+            <li><a href="contact_from.php"><i class="icon-man-woman"></i>
                     <span>Contact Us</span></a>
             </li>
 
@@ -57,10 +57,10 @@
                 <a href="#"><i class=" icon-office"></i> <span>Bootom Menu</span></a>
                 <ul>
                     <li>
-                        <a href="#">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
-                        <a href="#">Useful Links</a>
+                        <a href="bootom_link.php">Useful Links</a>
                     </li>
                     <li>
                         <a href="#">Our Services</a>
