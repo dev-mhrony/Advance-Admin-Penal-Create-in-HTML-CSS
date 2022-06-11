@@ -63,10 +63,10 @@
                         <a href="bootom_link.php">Useful Links</a>
                     </li>
                     <li>
-                        <a href="#">Our Services</a>
+                        <a href="service.php">Our Services</a>
                     </li>
                     <li>
-                        <a href="#">Our Social Networks</a>
+                        <a href="social_link.php">Our Social Networks</a>
                     </li>
 
                 </ul>
