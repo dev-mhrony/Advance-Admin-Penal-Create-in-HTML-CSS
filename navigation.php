@@ -12,7 +12,7 @@
                     <span>Header</span></a>
             </li>
 
-            <li><a href="index.html"><i class="icon-bubbles4"></i>
+            <li><a href="clint_msg.php"><i class="icon-bubbles4"></i>
                     <span>Clint Messages</span></a>
             </li>
 
