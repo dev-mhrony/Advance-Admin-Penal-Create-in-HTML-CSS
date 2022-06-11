@@ -30,15 +30,15 @@
                 </ul>
             </li>
 
-            <li><a href="index.html"><i class="icon-hammer-wrench"></i>
+            <li><a href="service.php"><i class="icon-hammer-wrench"></i>
                     <span>Service</span></a>
             </li>
 
-            <li><a href="index.html"><i class="icon-briefcase"></i>
+            <li><a href="project_done.php"><i class="icon-briefcase"></i>
                     <span>Resent Work</span></a>
             </li>
 
-            <li><a href="index.html"><i class=" icon-compose"></i>
+            <li><a href="faq.php"><i class=" icon-compose"></i>
                     <span>FAQ Section</span></a>
             </li>
 
