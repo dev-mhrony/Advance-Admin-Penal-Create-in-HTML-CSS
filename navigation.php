@@ -42,7 +42,7 @@
                     <span>FAQ Section</span></a>
             </li>
 
-            <li><a href="index.html"><i class="icon-heart5"></i>
+            <li><a href="brand_logo.php"><i class="icon-heart5"></i>
                     <span>Brand Logo</span></a>
             </li>
 
