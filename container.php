@@ -56,10 +56,6 @@
                 <!-- /page header -->
 
 
-
-
-
-
                 <!-- Content area -->
                 <div class="content">
 
@@ -72,7 +68,6 @@
                             <?php 
                 include "members_online.php";
                 ?>
-
 
 
                             <!-- Traffic sources -->

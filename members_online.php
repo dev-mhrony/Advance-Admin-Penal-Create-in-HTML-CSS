@@ -50,7 +50,6 @@
 							            <div id="server-load"></div>
 							        </div>
 							        <!-- /current server load -->
-
 							    </div>
 
 							    <div class="col-lg-4">
@@ -72,6 +71,5 @@
 							            <div id="today-revenue"></div>
 							        </div>
 							        <!-- /today's revenue -->
-
 							    </div>
 							</div>
