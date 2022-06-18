@@ -61,7 +61,7 @@
 
                     <!-- Main charts -->
                     <div class="row">
-                        <div class="col-lg-7">
+                        <div class="col-lg-12">
 
 
                             <!-- member_online -->
@@ -155,62 +155,7 @@
 
                         <div class="col-lg-5">
 
-                            <!-- Sales stats -->
-                            <div class="panel panel-flat">
-                                <div class="panel-heading">
-                                    <h6 class="panel-title">Sales statistics</h6>
-                                    <div class="heading-elements">
-                                        <form class="heading-form" action="#">
-                                            <div class="form-group">
-                                                <select class="change-date select-sm" id="select_date">
-                                                    <optgroup label="<i class='icon-watch pull-right'></i> Time period">
-                                                        <option value="val1">June, 29 - July, 5</option>
-                                                        <option value="val2">June, 22 - June 28</option>
-                                                        <option value="val3" selected="selected">June, 15 - June, 21
-                                                        </option>
-                                                        <option value="val4">June, 8 - June, 14</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
 
-                                <div class="container-fluid">
-                                    <div class="row text-center">
-                                        <div class="col-md-4">
-                                            <div class="content-group">
-                                                <h5 class="text-semibold no-margin"><i
-                                                        class="icon-calendar5 position-left text-slate"></i> 5,689
-                                                </h5>
-                                                <span class="text-muted text-size-small">orders weekly</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="content-group">
-                                                <h5 class="text-semibold no-margin"><i
-                                                        class="icon-calendar52 position-left text-slate"></i> 32,568
-                                                </h5>
-                                                <span class="text-muted text-size-small">orders monthly</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="content-group">
-                                                <h5 class="text-semibold no-margin"><i
-                                                        class="icon-cash3 position-left text-slate"></i> $23,464
-                                                </h5>
-                                                <span class="text-muted text-size-small">average revenue</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="content-group-sm" id="app_sales"></div>
-                                <div id="monthly-sales-stats"></div>
-                            </div>
-                            <!-- /sales stats -->
 
                         </div>
                     </div>

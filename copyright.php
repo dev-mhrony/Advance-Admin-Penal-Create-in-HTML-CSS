@@ -69,27 +69,8 @@ include "header.php";
                 <div class="page-header">
                     <div class="breadcrumb-line">
                         <ul class="breadcrumb">
-                            <li><a href="index.html"><i class="icon-home2 position-left"></i> Home</a></li>
-                            <li class="active">Dashboard</li>
-                        </ul>
-
-                        <ul class="breadcrumb-elements">
-                            <li><a href="#"><i class="icon-comment-discussion position-left"></i> Support</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="icon-gear position-left"></i>
-                                    Settings
-                                    <span class="caret"></span>
-                                </a>
-
-                                <ul class="dropdown-menu dropdown-menu-right">
-                                    <li><a href="#"><i class="icon-user-lock"></i> Account security</a></li>
-                                    <li><a href="#"><i class="icon-statistics"></i> Analytics</a></li>
-                                    <li><a href="#"><i class="icon-accessibility"></i> Accessibility</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#"><i class="icon-gear"></i> All settings</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="index.php"><i class="icon-home2 position-left"></i> Home</a></li>
+                            <li class="active">CopyRight</li>
                         </ul>
                     </div>
                 </div>
@@ -99,30 +80,73 @@ include "header.php";
                 <!-- Content area -->
                 <div class="content">
 
+                    <div class="text-right">
+                        <button type="button" class="btn btn-primary">Add Staf</button>
+                    </div>
                     <!-- Main charts -->
                     <div class="row">
-                        <h2>Welcome to Copyright Section</h2>
 
+                        <!-- Highlighting rows and columns -->
+                        <div class="panel panel-flat">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">Welcome to CopyRight Section</h5>
+                                <div class="heading-elements">
+                                    <ul class="icons-list">
+                                        <li><a data-action="collapse"></a></li>
+                                        <li><a data-action="reload"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <table class="table table-bordered table-hover datatable-highlight">
+                                <thead>
+                                    <tr>
+                                        <th>Text</th>
+                                        <th>Link</th>
+                                        <th>Year</th>
+                                        <th>Status</th>
+                                        <th class="text-center">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dhanvi</td>
+                                        <td>facebook.com</td>
+                                        <td>2022</td>
+                                        <td><span class="label label-success">Active</span></td>
+                                        <td class="text-center">
+                                            <ul class="icons-list">
+                                                <li><a href="#"><i class="icon-pencil7"></i></a></li>
+                                                <li><a href="#"><i class="icon-trash"></i></a></li>
+                                            </ul>
+                                        </td>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /highlighting rows and columns -->
                     </div>
+
                 </div>
-                <!-- /main charts -->
-
-
-
-
-
-                <!-- Footer -->
-                <div class="footer text-muted">
-                    &copy; 2022. <a href="#">Dhanvi</a> by <a href="http://developerrony.com" target="_blank">MH
-                        RONY</a>
-                </div>
-                <!-- /footer -->
-
             </div>
-            <!-- /content area -->
+            <!-- /main charts -->
+
+
+
+
+
+            <!-- Footer -->
+            <div class="footer text-muted">
+                &copy; 2022. <a href="#">Dhanvi</a> by <a href="http://developerrony.com" target="_blank">MH
+                    RONY</a>
+            </div>
+            <!-- /footer -->
 
         </div>
-        <!-- /main content -->
+        <!-- /content area -->
+
+    </div>
+    <!-- /main content -->
 
     </div>
     <!-- /page content -->

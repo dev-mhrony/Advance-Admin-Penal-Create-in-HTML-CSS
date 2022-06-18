@@ -69,7 +69,7 @@ include "header.php";
                 <div class="page-header">
                     <div class="breadcrumb-line">
                         <ul class="breadcrumb">
-                            <li><a href="index.html"><i class="icon-home2 position-left"></i> Home</a></li>
+                            <li><a href="index.php"><i class="icon-home2 position-left"></i> Home</a></li>
                             <li class="active">Dashboard</li>
                         </ul>
 
