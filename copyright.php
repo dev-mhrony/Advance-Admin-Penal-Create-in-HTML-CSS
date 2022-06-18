@@ -81,7 +81,7 @@ include "header.php";
                 <div class="content">
 
                     <div class="text-right">
-                        <button type="button" class="btn btn-primary">Add Staf</button>
+                        <button type="button" class="btn btn-primary">Add </button>
                     </div>
                     <!-- Main charts -->
                     <div class="row">

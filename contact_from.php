@@ -100,10 +100,51 @@ include "header.php";
                 <div class="content">
 
                     <!-- Main charts -->
-                    <div class="row">
-                        <h2>Welcome to Contact From</h2>
-
+                    <div class="text-right">
+                        <button type="button" class="btn btn-primary">Add </button>
                     </div>
+                    <!-- Main charts -->
+                    <div class="row">
+
+                        <!-- Highlighting rows and columns -->
+                        <div class="panel panel-flat">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">Welcome to CopyRight Section</h5>
+                                <div class="heading-elements">
+                                    <ul class="icons-list">
+                                        <li><a data-action="collapse"></a></li>
+                                        <li><a data-action="reload"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <table class="table table-bordered table-hover datatable-highlight">
+                                <thead>
+                                    <tr>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Location</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>abc@gmail.com</td>
+                                        <td>01608445456</td>
+                                        <td>Sonatola, Puraton Bondor, Bogura.</td>
+                                        <td class="text-center">
+                                            <ul class="icons-list">
+                                                <li><a href="#"><i class="icon-pencil7"></i></a></li>
+                                                <li><a href="#"><i class="icon-trash"></i></a></li>
+                                            </ul>
+                                        </td>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /highlighting rows and columns -->
+                    </div>
+
                 </div>
                 <!-- /main charts -->
 
