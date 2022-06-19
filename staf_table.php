@@ -113,16 +113,16 @@ include "./DataBase/config.php";
 
 
                                     <tr>
-                                        <th>SN</th>
-                                        <th>First name</th>
-                                        <th>Last name</th>
-                                        <th>Position</th>
-                                        <th>Age</th>
-                                        <th>Join Date</th>
-                                        <th>Salary</th>
-                                        <th>E-mail</th>
-                                        <th>Image</th>
-                                        <th class="text-center">Actions</th>
+                                        <th width=3%>SN</th>
+                                        <th width=15%>First name</th>
+                                        <th width=15%>Last name</th>
+                                        <th width=10%>Position</th>
+                                        <th width=5%>Age</th>
+                                        <th width=15%>Join Date</th>
+                                        <th width=5%>Salary</th>
+                                        <th width=12%>E-mail</th>
+                                        <th width=5%>Image</th>
+                                        <th class="text-center" width=5%>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -142,9 +142,12 @@ include "./DataBase/config.php";
                                         <td><span class="label label-info">৳ <?php echo $staf['salary']; ?></span></td>
                                         <td><a href="#"><?php echo $staf['email']; ?></a></td>
                                         <td><img src="<?php echo $staf['img']; ?>" alt="Not Found"></td>
+
                                         <td class="text-center">
                                             <ul class="icons-list">
-                                                <li><a href="update_staf.php"><i class="icon-pencil7"></i></a></li>
+                                                <li><a href="update_staf.php?staf_id= <?php echo $staf['id']; ?>"><i
+                                                            class=" icon-pencil7"></i></a>
+                                                </li>
                                                 <li><a href="#"><i class="icon-trash"></i></a></li>
                                             </ul>
                                         </td>
@@ -164,7 +167,7 @@ include "./DataBase/config.php";
 
 
                     <!-- Footer -->
-                    <div class="footer text-muted">
+                    <div class=" footer text-muted">
                         &copy; 2022. <a href="#">Dhanvi</a> by <a href="http://developerrony.com" target="_blank">MH
                             RONY</a>
                     </div>

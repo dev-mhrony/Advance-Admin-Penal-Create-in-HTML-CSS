@@ -98,7 +98,7 @@ include "./DataBase/config.php";
 
                             <div class="panel-body">
 
-                                <form class="form-horizontal" action="/DataBase/stafControlar.php" method="post">
+                                <form class="form-horizontal" action="./DataBase/stafControlar.php" method="post">
                                     <fieldset class="content-group mt-10">
 
                                         <?php
@@ -112,55 +112,54 @@ include "./DataBase/config.php";
                                         <?php } ?>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="title">Fast Name</label>
+                                            <label class="control-label col-lg-2" for="fast_name">Fast Name</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="title" name="title"
+                                                <input type="text" class="form-control" id="title" name="fast_name"
                                                     required>
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Last Name</label>
+                                            <label class="control-label col-lg-2" for="last_name">Last Name</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="sub_title" name="sub_title"
+                                                <input type="text" class="form-control" id="last_name" name="last_name"
                                                     required>
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Position</label>
+                                            <label class="control-label col-lg-2" for="position">Position</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="sub_title" name="sub_title"
+                                                <input type="text" class="form-control" id="position" name="position"
                                                     required>
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Age</label>
+                                            <label class="control-label col-lg-2" for="age">Age</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="sub_title" name="sub_title"
-                                                    required>
+                                                <input type="number" class="form-control" id="age" name="age" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Join Date</label>
+                                            <label class="control-label col-lg-2" for="join_date">Join Date</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="sub_title" name="sub_title"
+                                                <input type="date" class="form-control" id="join_date" name="join_date"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Selory</label>
+                                            <label class="control-label col-lg-2" for="selory">Selory</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="sub_title" name="sub_title"
+                                                <input type="number" class="form-control" id="selory" name="selory"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Email</label>
+                                            <label class="control-label col-lg-2" for="email">Email</label>
                                             <div class="col-lg-10">
-                                                <input type="email" class="form-control" id="sub_title" name="sub_title"
+                                                <input type="email" class="form-control" id="email" name="email"
                                                     required>
                                             </div>
                                         </div>
@@ -168,15 +167,15 @@ include "./DataBase/config.php";
 
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="image">Staf Image</label>
+                                            <label class="control-label col-lg-2" for="imag">Staf Image</label>
                                             <div class="col-lg-10">
-                                                <input type="file" class="form-control" id="image" name="image">
+                                                <input type="file" class="form-control" id="imag" name="imag">
                                             </div>
                                         </div>
                                     </fieldset>
 
                                     <div class="text-right">
-                                        <button type="submit" class="btn btn-primary" name="saveBanner">Add
+                                        <button type="submit" class="btn btn-primary" name="addstaf">Add
                                             Staf</button>
                                         <a href="staf_table.php" class="btn btn-default">Back To List </a>
                                     </div>
