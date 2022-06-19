@@ -136,7 +136,6 @@ include "header.php";
                                         <td class="text-center">
                                             <ul class="icons-list">
                                                 <li><a href="#"><i class="icon-pencil7"></i></a></li>
-                                                <li><a href="#"><i class="icon-trash"></i></a></li>
                                             </ul>
                                         </td>
                                     </tr>

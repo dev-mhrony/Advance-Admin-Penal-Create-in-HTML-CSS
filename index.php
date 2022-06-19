@@ -15,9 +15,7 @@ include "header.php";
 
 
 
-    <?php 
-	include "main_nav.php";
-	?>
+
 
 
 
@@ -25,6 +23,7 @@ include "header.php";
     <?php 
 	include "container.php";
 	?>
+
 
 </body>
 

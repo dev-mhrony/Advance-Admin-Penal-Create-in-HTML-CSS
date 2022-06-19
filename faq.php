@@ -130,6 +130,10 @@ include "header.php";
                                                 </li>
                                                 <li><a href="#"><i class="icon-thumbs-down2 position-left"></i></a> 14
                                                 </li>
+                                                <li><a href="update_staf.php"><i class="icon-pencil7"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="icon-trash"></i></a></li>
+
                                             </ul>
                                         </div>
                                     </div>

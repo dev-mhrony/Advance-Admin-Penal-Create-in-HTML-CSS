@@ -104,19 +104,20 @@ include "header.php";
 
                             <table class="table datatable-fixed-left" width="100%">
                                 <div class="panel text-right">
-                                    <button type="button" class="btn btn-primary">Add Staf</button>
+                                    <a href="add_staf.php"><button type="button" class="btn btn-primary">Add
+                                            Staf</button></a>
                                 </div>
                                 <thead>
                                     <tr>
                                         <th>First name</th>
                                         <th>Last name</th>
                                         <th>Position</th>
-                                        <th>Office</th>
                                         <th>Age</th>
-                                        <th>Start date</th>
+                                        <th>Join Date</th>
                                         <th>Salary</th>
-                                        <th>Extn.</th>
                                         <th>E-mail</th>
+                                        <th>Image</th>
+                                        <th class="text-center">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -124,23 +125,17 @@ include "header.php";
                                         <td>Tiger</td>
                                         <td>Nixon</td>
                                         <td>System Architect</td>
-                                        <td>Edinburgh</td>
                                         <td>61</td>
                                         <td>2011/04/25</td>
                                         <td><span class="label label-info">$320,800</span></td>
-                                        <td>5421</td>
                                         <td><a href="#">t.nixon@datatables.net</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Garrett</td>
-                                        <td>Winters</td>
-                                        <td>Accountant</td>
-                                        <td>Tokyo</td>
-                                        <td>63</td>
-                                        <td>2011/07/25</td>
-                                        <td><span class="label label-danger">$170,750</span></td>
-                                        <td>8422</td>
-                                        <td><a href="#">g.winters@datatables.net</a></td>
+                                        <td><img src="" alt="Not Found"></td>
+                                        <td class="text-center">
+                                            <ul class="icons-list">
+                                                <li><a href="update_staf.php"><i class="icon-pencil7"></i></a></li>
+                                                <li><a href="#"><i class="icon-trash"></i></a></li>
+                                            </ul>
+                                        </td>
                                     </tr>
 
                                 </tbody>
