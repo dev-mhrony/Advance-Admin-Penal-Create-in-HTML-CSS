@@ -145,7 +145,7 @@ include "./DataBase/config.php";
 
                                         <td class="text-center">
                                             <ul class="icons-list">
-                                                <li><a href="update_staf.php?staf_id= <?php echo $staf['id']; ?>"><i
+                                                <li><a href="update_staf.php?staf_id=<?php echo $staf['id']; ?>"><i
                                                             class=" icon-pencil7"></i></a>
                                                 </li>
                                                 <li><a href="#"><i class="icon-trash"></i></a></li>

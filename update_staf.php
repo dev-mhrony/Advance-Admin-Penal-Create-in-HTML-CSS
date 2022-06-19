@@ -98,6 +98,13 @@ include "header.php";
 
                             <div class="panel-body">
 
+                                <?php
+                                    include "./DataBase/config.php";
+                                    $staf_id = $_GET['staf_id'];
+                                    $get_single_data_qry = "SELECT * FROM all_staf WHERE id={$staf_id}";
+                                    $get_result = mysqli_query($dbCannaction, $get_single_data_qry);
+
+                                ?>
 
                                 <form class="form-horizontal" action="./DataBase/stafControlar.php" method="post">
                                     <fieldset class="content-group mt-10">
@@ -112,11 +119,19 @@ include "header.php";
                                         </div>
                                         <?php } ?>
 
+                                        <?php
+                                            
+                                            foreach($get_result as $key => $stafinfo){
+                                                
+                                            
+
+                                        ?>
+
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="fast_name">Fast Name</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="title" name="fast_name"
-                                                    required>
+                                                    required value="<?php echo $stafinfo ['fast_name']?>">
                                             </div>
                                         </div>
 
@@ -124,7 +139,7 @@ include "header.php";
                                             <label class="control-label col-lg-2" for="last_name">Last Name</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="last_name" name="last_name"
-                                                    required>
+                                                    required value="<?php echo $stafinfo ['last_name']?>">
                                             </div>
                                         </div>
 
@@ -132,14 +147,15 @@ include "header.php";
                                             <label class="control-label col-lg-2" for="position">Position</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="position" name="position"
-                                                    required>
+                                                    required value="<?php echo $stafinfo ['position']?>">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="age">Age</label>
                                             <div class="col-lg-10">
-                                                <input type="number" class="form-control" id="age" name="age" required>
+                                                <input type="number" class="form-control" id="age" name="age" required
+                                                    required value="<?php echo $stafinfo ['age']?>">
                                             </div>
                                         </div>
 
@@ -147,21 +163,21 @@ include "header.php";
                                             <label class="control-label col-lg-2" for="join_date">Join Date</label>
                                             <div class="col-lg-10">
                                                 <input type="date" class="form-control" id="join_date" name="join_date"
-                                                    required>
+                                                    required value="<?php echo $stafinfo ['join_date']?>">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="selory">Selory</label>
+                                            <label class="control-label col-lg-2" for="salary">Selory</label>
                                             <div class="col-lg-10">
-                                                <input type="number" class="form-control" id="selory" name="selory"
-                                                    required>
+                                                <input type="number" class="form-control" id="selory" name="salary"
+                                                    required value="<?php echo $stafinfo ['salary']?>">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="email">Email</label>
                                             <div class="col-lg-10">
                                                 <input type="email" class="form-control" id="email" name="email"
-                                                    required>
+                                                    required value="<?php echo $stafinfo ['email']?>">
                                             </div>
                                         </div>
 
@@ -170,9 +186,15 @@ include "header.php";
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="imag">Staf Image</label>
                                             <div class="col-lg-10">
-                                                <input type="file" class="form-control" id="imag" name="imag">
+                                                <input type="file" class="form-control" id="imag" name="imag"
+                                                    value="<?php echo $stafinfo ['imag']?>">
                                             </div>
                                         </div>
+
+
+
+                                        <?php } ?>
+
                                     </fieldset>
 
                                     <div class="text-right">
