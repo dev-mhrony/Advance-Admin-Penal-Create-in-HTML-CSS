@@ -6,6 +6,7 @@
     <?php
 
 include "header.php";
+include "./DataBase/config.php";
 
 ?>
 </header>
@@ -102,13 +103,17 @@ include "header.php";
 
 
 
+
                             <table class="table datatable-fixed-left" width="100%">
                                 <div class="panel text-right">
                                     <a href="add_staf.php"><button type="button" class="btn btn-primary">Add
                                             Staf</button></a>
                                 </div>
                                 <thead>
+
+
                                     <tr>
+                                        <th>SN</th>
                                         <th>First name</th>
                                         <th>Last name</th>
                                         <th>Position</th>
@@ -121,15 +126,22 @@ include "header.php";
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php
+                                $selectQury= "SELECT * FROM all_staf WHERE status=1";
+                                $staf_info = mysqli_query($dbCannaction, $selectQury);
+                                foreach($staf_info as $key => $staf){
+
+                                ?>
                                     <tr>
-                                        <td>Tiger</td>
-                                        <td>Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>61</td>
-                                        <td>2011/04/25</td>
-                                        <td><span class="label label-info">$320,800</span></td>
-                                        <td><a href="#">t.nixon@datatables.net</a></td>
-                                        <td><img src="" alt="Not Found"></td>
+                                        <td><?php echo ++$key ?></td>
+                                        <td><?php echo $staf['fast_name']; ?></td>
+                                        <td><?php echo $staf['last_name']; ?></td>
+                                        <td><?php echo $staf['position']; ?></td>
+                                        <td><?php echo $staf['age']; ?></td>
+                                        <td><?php echo $staf['join_date']; ?></td>
+                                        <td><span class="label label-info">৳ <?php echo $staf['salary']; ?></span></td>
+                                        <td><a href="#"><?php echo $staf['email']; ?></a></td>
+                                        <td><img src="<?php echo $staf['img']; ?>" alt="Not Found"></td>
                                         <td class="text-center">
                                             <ul class="icons-list">
                                                 <li><a href="update_staf.php"><i class="icon-pencil7"></i></a></li>
@@ -137,6 +149,8 @@ include "header.php";
                                             </ul>
                                         </td>
                                     </tr>
+
+                                    <?php } ?>
 
                                 </tbody>
                             </table>

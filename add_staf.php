@@ -6,7 +6,7 @@
     <?php
 
 include "header.php";
-
+include "./DataBase/config.php";
 ?>
 </header>
 
@@ -98,7 +98,7 @@ include "header.php";
 
                             <div class="panel-body">
 
-                                <form class="form-horizontal" action="../controller/BannerController.php" method="post">
+                                <form class="form-horizontal" action="/DataBase/stafControlar.php" method="post">
                                     <fieldset class="content-group mt-10">
 
                                         <?php
