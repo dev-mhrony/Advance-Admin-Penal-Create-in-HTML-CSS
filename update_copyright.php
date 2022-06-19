@@ -112,7 +112,7 @@ include "header.php";
                                         <?php } ?>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="title">Question </label>
+                                            <label class="control-label col-lg-2" for="title">Text</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="title" name="title"
                                                     required>
@@ -120,7 +120,14 @@ include "header.php";
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Answer</label>
+                                            <label class="control-label col-lg-2" for="sub_title">Link</label>
+                                            <div class="col-lg-10">
+                                                <input type="text" class="form-control" id="sub_title" name="sub_title"
+                                                    required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-lg-2" for="sub_title">Year</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="sub_title" name="sub_title"
                                                     required>
@@ -128,13 +135,12 @@ include "header.php";
                                         </div>
 
 
-
                                     </fieldset>
 
                                     <div class="text-right">
                                         <button type="submit" class="btn btn-primary" name="saveBanner">Update
                                             Staf</button>
-                                        <a href="staf_table.php" class="btn btn-default">Back To List </a>
+                                        <a href="copyright.php" class="btn btn-default">Back To List </a>
                                     </div>
                                 </form>
                             </div>

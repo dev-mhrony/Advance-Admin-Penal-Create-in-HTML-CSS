@@ -11,9 +11,7 @@ include "header.php";
 
 <body>
 
-    <?php 
-	include "main_nav.php";
-	?>
+
 
 
 

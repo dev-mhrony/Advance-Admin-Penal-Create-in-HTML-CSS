@@ -20,10 +20,6 @@
                     <span>Clint Messages</span></a>
             </li>
 
-
-
-            <li class="navigation-header"><span>Body Section</span> <i class="icon-menu" title="Main pages"></i>
-            </li>
             <li>
 
                 <a href="#"><i class="icon-users"></i> <span>About Section</span></a>

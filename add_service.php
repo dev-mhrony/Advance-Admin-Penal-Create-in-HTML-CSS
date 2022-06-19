@@ -86,7 +86,7 @@ include "header.php";
                         <!-- Basic datatable -->
                         <div class="panel panel-flat">
                             <div class="panel-heading">
-                                <h5 class="panel-title">Add Staf</h5>
+                                <h5 class="panel-title">Add Service</h5>
                                 <div class="heading-elements">
                                     <ul class="icons-list">
                                         <!-- <li><a data-action="collapse"></a></li>
@@ -112,7 +112,7 @@ include "header.php";
                                         <?php } ?>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="title">Question </label>
+                                            <label class="control-label col-lg-2" for="title">Title</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="title" name="title"
                                                     required>
@@ -120,21 +120,27 @@ include "header.php";
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="sub_title">Answer</label>
+                                            <label class="control-label col-lg-2" for="sub_title">Sub Title</label>
                                             <div class="col-lg-10">
                                                 <input type="text" class="form-control" id="sub_title" name="sub_title"
                                                     required>
                                             </div>
                                         </div>
-
+                                        <div class="form-group">
+                                            <label class="control-label col-lg-2" for="sub_title">Icon</label>
+                                            <div class="col-lg-10">
+                                                <input type="file" class="form-control" id="sub_title" name="sub_title"
+                                                    required>
+                                            </div>
+                                        </div>
 
 
                                     </fieldset>
 
                                     <div class="text-right">
-                                        <button type="submit" class="btn btn-primary" name="saveBanner">Update
-                                            Staf</button>
-                                        <a href="staf_table.php" class="btn btn-default">Back To List </a>
+                                        <button type="submit" class="btn btn-primary" name="saveBanner">Add
+                                            Service</button>
+                                        <a href="service.php" class="btn btn-default">Back To List </a>
                                     </div>
                                 </form>
                             </div>

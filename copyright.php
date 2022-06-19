@@ -80,9 +80,6 @@ include "header.php";
                 <!-- Content area -->
                 <div class="content">
 
-                    <div class="text-right">
-                        <button type="button" class="btn btn-primary">Add </button>
-                    </div>
                     <!-- Main charts -->
                     <div class="row">
 
@@ -116,8 +113,7 @@ include "header.php";
                                         <td><span class="label label-success">Active</span></td>
                                         <td class="text-center">
                                             <ul class="icons-list">
-                                                <li><a href="#"><i class="icon-pencil7"></i></a></li>
-                                                <li><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li><a href="update_copyright.php"><i class="icon-pencil7"></i></a></li>
                                             </ul>
                                         </td>
 
