@@ -115,6 +115,7 @@ include "header.php";
                             <table class="table datatable-basic table-bordered table-striped table-hover">
                                 <thead>
                                     <tr>
+                                        <th>SN</th>
                                         <th>Title</th>
                                         <th>Sub Title</th>
                                         <th>Button Link</th>
@@ -124,20 +125,30 @@ include "header.php";
                                     </tr>
                                 </thead>
                                 <tbody>
+
+                                    <?php
+                                    include './DataBase/config.php';
+                                $selectQury= "SELECT * FROM header_section WHERE status=1";
+                                $header_updat = mysqli_query($dbCannaction, $selectQury);
+                                
+                                foreach($header_updat as $key => $header){
+
+                                ?>
                                     <tr>
-                                        <td>Bettter digital experience with Dhanvi</td>
-                                        <td>We are team of talented designers making websites with
-                                            Bootstrap</td>
-                                        <td>facebook.com</td>
-                                        <td>img.jpg</td>
+                                        <td><?php echo ++$key ?></td>
+                                        <td><?php echo $header['title']; ?></td>
+                                        <td><?php echo $header['sub_title']; ?></td>
+                                        <td><?php echo $header['get_link']; ?></td>
+                                        <td><?php echo $header['img_file']; ?></td>
                                         <td><span class="label label-success ">Active</span></td>
                                         <td class="text-center">
                                             <ul class="icons-list">
-                                                <li><a href="#"><i class="icon-pencil7"></i></a></li>
+                                                <li><a href="update_header.php?header_id=<?php echo $header['id']; ?>"><i
+                                                            class="icon-pencil7"></i></a></li>
                                             </ul>
                                         </td>
                                     </tr>
-
+                                    <?php } ?>
                                 </tbody>
                             </table>
                         </div>

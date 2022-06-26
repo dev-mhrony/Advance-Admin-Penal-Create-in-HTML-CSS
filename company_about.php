@@ -99,9 +99,9 @@
                         <div class="media-right media-middle">
                             <ul class="list-inline list-inline-condensed no-margin-bottom text-nowrap">
                                 <li><a href="#" class="btn btn-default"><i class="icon-file-picture position-left"></i>
-                                        Cover image</a></li>
+                                        Profile Photo</a></li>
                                 <li><a href="#" class="btn btn-default"><i class="icon-file-stats position-left"></i>
-                                        Statistics</a></li>
+                                        Cover Photo</a></li>
                             </ul>
                         </div>
                     </div>
@@ -120,8 +120,7 @@
 
                     <!-- Footer -->
                     <div class="footer text-muted">
-                        &copy; 2015. <a href="#">Limitless Web App Kit</a> by <a
-                            href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+                        &copy; 2022. <code>Ghasful</code> by <a href="developerrony.com" target="_blank">MH RONY</a>
                     </div>
                     <!-- /footer -->
 

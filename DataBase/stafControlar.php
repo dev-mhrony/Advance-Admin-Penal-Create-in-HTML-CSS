@@ -62,14 +62,18 @@ if(isset($_POST['updatestaf'])){
         $stafinfosubmit= mysqli_query($dbCannaction , $updateinfo );
 
     }
-    if($stafinfosubmit== true){
+    if($stafinfosubmit == true){
         $massege = "Update Sucess";
     }else{
         $massege = "Update Fail";
     }
     
-    header("location: ../update_staf.php?msg={$massege}");
+    header("location: ../update_staf.php?staf_id={$staf_id}&msg={$massege}");
 
 
 }
+
+
+
+
 ?>

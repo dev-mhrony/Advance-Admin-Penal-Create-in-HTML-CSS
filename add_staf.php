@@ -98,7 +98,8 @@ include "./DataBase/config.php";
 
                             <div class="panel-body">
 
-                                <form class="form-horizontal" action="./DataBase/stafControlar.php" method="post">
+                                <form class="form-horizontal" action="./DataBase/stafControlar.php" method="post"
+                                    enctype="multipart/form-data">
                                     <fieldset class="content-group mt-10">
 
                                         <?php

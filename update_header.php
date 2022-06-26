@@ -89,9 +89,9 @@ include "header.php";
                                 <h5 class="panel-title">Add Staf</h5>
                                 <div class="heading-elements">
                                     <ul class="icons-list">
-                                        <!-- <li><a data-action="collapse"></a></li>
-			                		<li><a data-action="reload"></a></li>
-			                		<li><a data-action="close"></a></li> -->
+                                        <li><a data-action="collapse"></a></li>
+                                        <li><a data-action="reload"></a></li>
+                                        <li><a data-action="close"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -100,13 +100,13 @@ include "header.php";
 
                                 <?php
                                     include "./DataBase/config.php";
-                                    $staf_id = $_GET['staf_id'];
-                                    $get_single_data_qry = "SELECT * FROM all_staf WHERE id={$staf_id}";
+                                    $header_id = $_GET['header_id'];
+                                    $get_single_data_qry = "SELECT * FROM header_section WHERE id={$header_id}";
                                     $getresult = mysqli_query($dbCannaction, $get_single_data_qry);
                                     
                                 ?>
 
-                                <form class="form-horizontal" action="./DataBase/stafControlar.php" method="post">
+                                <form class="form-horizontal" action="./DataBase/header_controlar.php" method="post">
                                     <fieldset class="content-group mt-10">
 
                                         <?php
@@ -120,91 +120,56 @@ include "header.php";
                                         <?php } ?>
 
                                         <?php
-                                           
-                                        if(is_array($getresult) || is_object($getresult)){
                                             
-                                        
-                                            
-                                            foreach($getresult as $key => $stafinfo){
+                                            foreach($getresult as $key => $headerinfo){
 
                                         ?>
 
                                         <div class="form-group">
-                                            <input type="hidden" name="staf_id" value="<?php echo $stafinfo ['id']?>">
-                                            <label class="control-label col-lg-2" for="fast_name">Fast Name</label>
+                                            <label class="control-label col-lg-2" for="title">Title</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="title" name="fast_name"
-                                                    required value="<?php echo $stafinfo ['fast_name']?>">
-                                            </div>
-                                        </div>
-
-
-                                        <div class="form-group">
-                                            <label class="control-label col-lg-2" for="last_name">Last Name</label>
-                                            <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="last_name" name="last_name"
-                                                    required value="<?php echo $stafinfo ['last_name']?>">
+                                                <input type="text" class="form-control" id="title" name="title" required
+                                                    value="<?php echo $headerinfo['title']; ?>">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="position">Position</label>
+                                            <label class="control-label col-lg-2" for="sub_title">Sub Title</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="position" name="position"
-                                                    required value="<?php echo $stafinfo ['position']?>">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-lg-2" for="age">Age</label>
-                                            <div class="col-lg-10">
-                                                <input type="number" class="form-control" id="age" name="age" required
-                                                    required value="<?php echo $stafinfo ['age']?>">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-lg-2" for="join_date">Join Date</label>
-                                            <div class="col-lg-10">
-                                                <input type="date" class="form-control" id="join_date" name="join_date"
-                                                    required value="<?php echo $stafinfo ['join_date']?>">
+                                                <input type="number" class="form-control" id="sub_title"
+                                                    name="sub_title" required
+                                                    value="<?php echo $headerinfo['sub_title']; ?>">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="salary">Selory</label>
+                                            <label class="control-label col-lg-2" for="get_link">Link</label>
                                             <div class="col-lg-10">
-                                                <input type="number" class="form-control" id="selory" name="salary"
-                                                    required value="<?php echo $stafinfo ['salary']?>">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-lg-2" for="email">Email</label>
-                                            <div class="col-lg-10">
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                    required value="<?php echo $stafinfo ['email']?>">
+                                                <input type="email" class="form-control" id="emailget_link"
+                                                    name="get_link" required
+                                                    value="<?php echo $headerinfo['get_link']; ?>">
                                             </div>
                                         </div>
 
 
 
                                         <div class="form-group">
-                                            <label class="control-label col-lg-2" for="imag">Staf Image</label>
+                                            <label class="control-label col-lg-2" for="imag">Image</label>
                                             <div class="col-lg-10">
                                                 <input type="file" class="form-control" id="imag" name="imag"
-                                                    value="<?php echo $stafinfo ['imag']?>">
+                                                    value="<?php echo $header['img_file']; ?>">
                                             </div>
                                         </div>
 
 
 
-                                        <?php } }?>
+                                        <?php } ?>
 
                                     </fieldset>
 
                                     <div class="text-right">
-                                        <button type="submit" class="btn btn-primary" name="updatestaf">Update
-                                            Staf Info</button>
-                                        <a href="staf_table.php" class="btn btn-default">Back To List </a>
+                                        <button type="submit" class="btn btn-primary" name="updatheader">Update
+                                            Header</button>
+                                        <a href="header_deshbord.php" class="btn btn-default">Back To Header </a>
                                     </div>
                                 </form>
                             </div>

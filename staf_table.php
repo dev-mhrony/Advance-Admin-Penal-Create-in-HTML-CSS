@@ -109,6 +109,18 @@ include "./DataBase/config.php";
                                     <a href="add_staf.php"><button type="button" class="btn btn-primary">Add
                                             Staf</button></a>
                                 </div>
+
+                                <?php
+										if (isset($_GET['msg'])) {
+									?>
+                                <div class="alert alert-success no-border">
+                                    <button type="button" class="close" data-dismiss="alert"><span>×</span><span
+                                            class="sr-only">Close</span></button>
+                                    <span class="text-semibold">Success</span> <?php echo $_GET['msg']; ?>
+                                </div>
+
+                                <?php } ?>
+
                                 <thead>
 
 
@@ -129,6 +141,7 @@ include "./DataBase/config.php";
                                     <?php
                                 $selectQury= "SELECT * FROM all_staf WHERE status=1";
                                 $staf_info = mysqli_query($dbCannaction, $selectQury);
+                                
                                 foreach($staf_info as $key => $staf){
 
                                 ?>
@@ -145,10 +158,11 @@ include "./DataBase/config.php";
 
                                         <td class="text-center">
                                             <ul class="icons-list">
-                                                <li><a href="update_staf.php?staf_id=<?php echo $staf['id']; ?>"><i
+                                                <li><a href="update_staf.php?staf_id=<?php echo $staf['id']?>"><i
                                                             class=" icon-pencil7"></i></a>
                                                 </li>
-                                                <li><a href="#"><i class="icon-trash"></i></a></li>
+                                                <li><a href="delete_staf.php?staf_id=<?php echo $staf['id']?>"><i
+                                                            class="icon-trash"></i></a></li>
                                             </ul>
                                         </td>
                                     </tr>

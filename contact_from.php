@@ -100,16 +100,14 @@ include "header.php";
                 <div class="content">
 
                     <!-- Main charts -->
-                    <div class="text-right">
-                        <button type="button" class="btn btn-primary">Add </button>
-                    </div>
                     <!-- Main charts -->
                     <div class="row">
+
 
                         <!-- Highlighting rows and columns -->
                         <div class="panel panel-flat">
                             <div class="panel-heading">
-                                <h5 class="panel-title">Welcome to CopyRight Section</h5>
+                                <h5 class="panel-title">Welcome to Contact From Section</h5>
                                 <div class="heading-elements">
                                     <ul class="icons-list">
                                         <li><a data-action="collapse"></a></li>
@@ -135,7 +133,6 @@ include "header.php";
                                         <td class="text-center">
                                             <ul class="icons-list">
                                                 <li><a href="#"><i class="icon-pencil7"></i></a></li>
-                                                <li><a href="#"><i class="icon-trash"></i></a></li>
                                             </ul>
                                         </td>
 
