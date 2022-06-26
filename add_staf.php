@@ -115,53 +115,47 @@ include "./DataBase/config.php";
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="fast_name">Fast Name</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="title" name="fast_name"
-                                                    required>
+                                                <input type="text" class="form-control" id="title" name="fast_name">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="last_name">Last Name</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="last_name" name="last_name"
-                                                    required>
+                                                <input type="text" class="form-control" id="last_name" name="last_name">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="position">Position</label>
                                             <div class="col-lg-10">
-                                                <input type="text" class="form-control" id="position" name="position"
-                                                    required>
+                                                <input type="text" class="form-control" id="position" name="position">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="age">Age</label>
                                             <div class="col-lg-10">
-                                                <input type="number" class="form-control" id="age" name="age" required>
+                                                <input type="number" class="form-control" id="age" name="age">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="join_date">Join Date</label>
                                             <div class="col-lg-10">
-                                                <input type="date" class="form-control" id="join_date" name="join_date"
-                                                    required>
+                                                <input type="date" class="form-control" id="join_date" name="join_date">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="selory">Selory</label>
                                             <div class="col-lg-10">
-                                                <input type="number" class="form-control" id="selory" name="selory"
-                                                    required>
+                                                <input type="number" class="form-control" id="selory" name="selory">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-lg-2" for="email">Email</label>
                                             <div class="col-lg-10">
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                    required>
+                                                <input type="email" class="form-control" id="email" name="email">
                                             </div>
                                         </div>
 

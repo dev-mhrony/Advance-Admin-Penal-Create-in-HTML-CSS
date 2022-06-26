@@ -4,6 +4,29 @@ require 'config.php';
 
 // insert / add staf 
 if(isset($_POST['addstaf'])){
+
+
+    if(isset($_FILES['imag'])){
+        $imgArray = $_FILES['imag'];
+        $imgName = $imgArray['name'];
+        $file_location = $imgArray['temp_name'];
+        $file_exploade = explode('.', $imgName);
+        $file_extention = strtolower(end($file_exploade)) ;
+        $valid_extention = array('jpg','jpeg','png','gif');
+
+        if(is_array($file_extention, $valid_extention)){
+            move_uploaded_file($file_location, './imgstor/stafImage'.$imgName);
+            echo "Upload Success";
+        }else{
+            echo  $file_extention." is not Valid";
+        }
+        
+    }else{
+        echo "Image Not Found";
+    }
+
+    die("xxx");
+
     
     $fast_name = $_POST["fast_name"];
     $last_name = $_POST["last_name"];
